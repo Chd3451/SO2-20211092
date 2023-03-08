@@ -1,4 +1,6 @@
 #!/bin/bash
+#Manejo de errores con Bash: (Usar trap y ERR) 8/3/2023
+
 
 # Función que se ejecuta al producirse un error
 function error_handler {
