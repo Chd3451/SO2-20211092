@@ -21,7 +21,7 @@ done
 
 # Imprimir todos los números impares desde 1 hasta el número ingresado
 for ((i=1; i<=n; i+=2)); do
-    # Si el número es el último de la secuencia, no se debe imprimir una coma después
+    # Manejar cuando se debe usar la coma
     if [ "$i" -eq "$n" ]; then
         echo "$i"
     else
